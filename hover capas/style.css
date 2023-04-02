@@ -1,0 +1,61 @@
+.itens:hover td:not(:hover){
+    opacity: .4;
+}
+.itens td:hover{
+    scale: 1.1;
+}
+.titulos{
+    color: rgb(214, 226, 236);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin: 0 auto;
+    border: solid 1px;
+    border-color: greenyellow;
+    border-radius: 15px;
+    margin-bottom: 2px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.se{
+    border-right: solid 1px;
+    border-color: greenyellow;
+    padding-right: 25px;
+}
+.fi{
+    border-right: solid 1px;
+    border-color: greenyellow;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.an{
+    padding-left: 25px;
+}
+/*.se:hover{
+    opacity: 0.4;
+}
+img{
+    border-radius: 20px;
+    border: solid 1px;
+    border-color: white;
+}
+.itens{
+    margin: 0 auto;
+    padding: 10px;
+    border: solid 1px;
+    border-color: greenyellow;
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.series{
+    height: 150px;
+}
+.filmes{
+    height: 150px;
+}
+.animes{
+    height: 150px;
+}
+
+  
