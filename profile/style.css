@@ -1,0 +1,103 @@
+body{
+    background-color: #0493B9;
+}
+.layout-perfil{
+    position: absolute;
+    height: 696px;
+    width: 437px;
+    border-radius: 20px;
+    background: #D7F3FC;
+    left: 322px;
+    top: 192px;
+}
+.banner{
+    background: #36C5F0;
+    width: 437px;
+    height: 226px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.foto-perfil{
+    position: absolute;
+    width: 180px;
+    border-radius: 50%;
+    top: 150px;
+    right: 130px;
+    border: solid 10px;
+    border-color: #F6F6F6;
+}
+.nome{
+    position: absolute;
+    height: 37px;
+    height: 54px;
+    top: 366px;
+    right: 87px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+}
+.area{
+    position: absolute;
+    height: 54px;
+    top: 420px;
+    right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: medium;
+    
+}
+.descrição{
+    position: absolute;
+    height: 54px;
+    top: 470px;
+    right: 15px;
+    left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.redxes-sociais{
+    position: absolute;
+    height: 54px;
+    top: 600px;
+    right: 15px;
+    left: 15px;
+    border: solid 1px;
+    padding: 0%;
+    margin: auto;
+}
+.linkedin, .user-linkedin{
+    position: absolute;
+    height: 54px;
+    top: 600px;
+    right: 15px;
+    left: 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 100px;
+}
+.user-linkedin{
+    padding: 2px;
+    left: 57px;
+}
+.twitter, .user-twitter{
+    position: absolute;
+    height: 54px;
+    top: 600px;
+    right: 150px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 100px;
+}
+.user-twitter{
+    padding: 2px;
+    right: 45px;
+}
+.hoverall:hover{
+    scale: 1.1;
+}
+
