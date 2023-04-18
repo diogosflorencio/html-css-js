@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        button{
+            background-color: rgb(83, 10, 117);
+            color:rgb(210, 182, 223);
+        }
+        div{
+            position: absolute;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            bottom: 50%;
+            left: 40%; 
+            scale: 1.8;
+        }
+        input{
+            border: solid 2px rgb(75, 11, 134);
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: rgb(20, 131, 20);
+            color:rgb(171, 212, 171);
+        }
+    </style>
+    <title>teste</title>
+</head>
+<body>
+    <div>
+        <p>Olá, Mundo!</p>
+        <input type="text">
+        <button>mudar texto</button>
+    </div>
+    <script>
+        function mudar(){
+            paragrafo.textContent = texto.value;
+            texto.value = "";
+            foca();
+        }
+        function foca(){
+            texto.focus();
+        }
+        var paragrafo = document.querySelector('p');
+        var texto = document.querySelector('input');
+        var button = document.querySelector("button");
+
+        button.onclick = mudar;
+    </script>
+</body>
+</html>
